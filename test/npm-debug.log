@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink E:\Program Files\nodejs\\node.exe
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart test@0.0.0
+7 info start test@0.0.0
+8 verbose unsafe-perm in lifecycle true
+9 info test@0.0.0 Failed to exec start script
+10 verbose stack Error: test@0.0.0 start: `node ./bin/www`
+10 verbose stack Exit status 1
+10 verbose stack     at EventEmitter.<anonymous> (E:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+10 verbose stack     at EventEmitter.emit (events.js:110:17)
+10 verbose stack     at ChildProcess.<anonymous> (E:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+10 verbose stack     at ChildProcess.emit (events.js:110:17)
+10 verbose stack     at maybeClose (child_process.js:1008:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+11 verbose pkgid test@0.0.0
+12 verbose cwd E:\Program Files\nodejs\test
+13 error Windows_NT 6.1.7601
+14 error argv "E:\\Program Files\\nodejs\\\\node.exe" "E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+15 error node v0.12.0
+16 error npm  v2.5.1
+17 error code ELIFECYCLE
+18 error test@0.0.0 start: `node ./bin/www`
+18 error Exit status 1
+19 error Failed at the test@0.0.0 start script 'node ./bin/www'.
+19 error This is most likely a problem with the test package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     node ./bin/www
+19 error You can get their info via:
+19 error     npm owner ls test
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]
